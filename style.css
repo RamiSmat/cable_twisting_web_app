@@ -1,0 +1,100 @@
+.container_bonjour{
+    background-color: rgb(225, 225, 225);
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:890px;
+    min-width: 480px;
+    height:50vh;
+    width:50vw;
+    box-shadow: 5px 5px 5px #9c9c9c;
+    
+
+}
+.container_bonjour h1, button , a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_bonjour button, a{
+    text-decoration: none;
+    background-color: rgb(218, 116, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container_bonjour a:hover{
+    background-color: rgb(173, 92, 0);
+}
+.container_bonjour button{
+    outline:none;
+    text-decoration: none;
+    border:none;
+    height:4.5vh;
+    font-size: 1.2em;
+}
+.container_bonjour button:hover{
+    background-color: rgb(173, 92, 0);
+}
+.welcome_container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    display:flex;
+    flex-direction: column;
+    text-align: center;;
+}
+.login-form input {
+    margin-bottom: 10px;
+    height: 4.5vh;
+    width: 25vw;
+    border-radius: 4px;
+    font-size: 1.05em;
+    border:1px rgba(0,0,0,1) solid;
+    max-width: 300px;
+    padding-left: 15px;
+    text-decoration: none;
+    min-width: 321px;
+
+}
+.logo-login{
+    width:40vw;
+    max-width:320px;
+    margin-bottom:-100px;
+    margin-top:-100px;
+}
+.container_client{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    background-color: #dfdfdf;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:890px;
+    min-width: 487px;
+    height:75vh;
+    width:50vw;
+    box-shadow: 5px 5px 5px #a4a4a4;
+}
+.container_client button{
+    outline:none;
+    text-decoration: none;
+    border:none;
+    height:4.5vh;
+    font-size: 1.2em;
+    background-color:rgb(218, 116, 0);
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_client button:hover {
+    background-color: rgb(173, 92, 0);
+
+}
